@@ -1,10 +1,3 @@
-//
-//  MeshyTests.swift
-//  MeshyTests
-//
-//  Created by Joshua Sullivan on 6/17/24.
-//
-
 import Testing
 @testable import Meshy
 

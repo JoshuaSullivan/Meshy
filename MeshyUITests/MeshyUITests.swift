@@ -1,10 +1,3 @@
-//
-//  MeshyUITests.swift
-//  MeshyUITests
-//
-//  Created by Joshua Sullivan on 6/17/24.
-//
-
 import XCTest
 
 final class MeshyUITests: XCTestCase {
