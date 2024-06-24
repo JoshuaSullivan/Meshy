@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC5754F12C212F3C006201B3 /* MeshyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5754F02C212F3C006201B3 /* MeshyApp.swift */; };
+		BC5754F32C212F3D006201B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5754F22C212F3D006201B3 /* ContentView.swift */; };
+		BC5754F52C212F3E006201B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5754F42C212F3E006201B3 /* Assets.xcassets */; };
+		BC5754F82C212F3E006201B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5754F72C212F3E006201B3 /* Preview Assets.xcassets */; };
+		BC5755022C212F3E006201B3 /* MeshyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5755012C212F3E006201B3 /* MeshyTests.swift */; };
+		BC57550C2C212F3E006201B3 /* MeshyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57550B2C212F3E006201B3 /* MeshyUITests.swift */; };
+		BC57550E2C212F3E006201B3 /* MeshyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57550D2C212F3E006201B3 /* MeshyUITestsLaunchTests.swift */; };
+		BC57551B2C212F7B006201B3 /* MeshEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57551A2C212F7B006201B3 /* MeshEditorViewModel.swift */; };
+		BC57551D2C2132C5006201B3 /* MeshEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57551C2C2132C5006201B3 /* MeshEditorView.swift */; };
+		BC57551F2C21BA36006201B3 /* BezierHandleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57551E2C21BA36006201B3 /* BezierHandleView.swift */; };
+		BC57552B2C21CEDA006201B3 /* ControlPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57552A2C21CEDA006201B3 /* ControlPointView.swift */; };
+		BC5755382C21D863006201B3 /* ControlPointViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5755372C21D863006201B3 /* ControlPointViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC5754FE2C212F3E006201B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5754E52C212F3C006201B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5754EC2C212F3C006201B3;
+			remoteInfo = Meshy;
+		};
+		BC5755082C212F3E006201B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC5754E52C212F3C006201B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5754EC2C212F3C006201B3;
+			remoteInfo = Meshy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC5754ED2C212F3C006201B3 /* Meshy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meshy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5754F02C212F3C006201B3 /* MeshyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshyApp.swift; sourceTree = "<group>"; };
+		BC5754F22C212F3D006201B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC5754F42C212F3E006201B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC5754F72C212F3E006201B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC5754FD2C212F3E006201B3 /* MeshyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5755012C212F3E006201B3 /* MeshyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshyTests.swift; sourceTree = "<group>"; };
+		BC5755072C212F3E006201B3 /* MeshyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC57550B2C212F3E006201B3 /* MeshyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshyUITests.swift; sourceTree = "<group>"; };
+		BC57550D2C212F3E006201B3 /* MeshyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC57551A2C212F7B006201B3 /* MeshEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshEditorViewModel.swift; sourceTree = "<group>"; };
+		BC57551C2C2132C5006201B3 /* MeshEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshEditorView.swift; sourceTree = "<group>"; };
+		BC57551E2C21BA36006201B3 /* BezierHandleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierHandleView.swift; sourceTree = "<group>"; };
+		BC57552A2C21CEDA006201B3 /* ControlPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPointView.swift; sourceTree = "<group>"; };
+		BC5755372C21D863006201B3 /* ControlPointViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPointViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BC5755272C21BF6E006201B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BezierMap.swift,
+				HandleEdge.swift,
+				MovementAxis.swift,
+			);
+			target = BC5754EC2C212F3C006201B3 /* Meshy */;
+		};
+		BCD865BE2C25326600259CA0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CGPointExtensions.swift,
+			);
+			target = BC5754EC2C212F3C006201B3 /* Meshy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BC5755242C21BF5E006201B3 /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (BC5755272C21BF6E006201B3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		BCD865BA2C25323F00259CA0 /* Extension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (BCD865BE2C25326600259CA0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Extension; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC5754EA2C212F3C006201B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5754FA2C212F3E006201B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5755042C212F3E006201B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC5754E42C212F3C006201B3 = {
+			isa = PBXGroup;
+			children = (
+				BC5754EF2C212F3C006201B3 /* Meshy */,
+				BC5755002C212F3E006201B3 /* MeshyTests */,
+				BC57550A2C212F3E006201B3 /* MeshyUITests */,
+				BC5754EE2C212F3C006201B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC5754EE2C212F3C006201B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC5754ED2C212F3C006201B3 /* Meshy.app */,
+				BC5754FD2C212F3E006201B3 /* MeshyTests.xctest */,
+				BC5755072C212F3E006201B3 /* MeshyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC5754EF2C212F3C006201B3 /* Meshy */ = {
+			isa = PBXGroup;
+			children = (
+				BC5754F02C212F3C006201B3 /* MeshyApp.swift */,
+				BC5754F22C212F3D006201B3 /* ContentView.swift */,
+				BC57551A2C212F7B006201B3 /* MeshEditorViewModel.swift */,
+				BC57551C2C2132C5006201B3 /* MeshEditorView.swift */,
+				BC5755372C21D863006201B3 /* ControlPointViewModel.swift */,
+				BC57552A2C21CEDA006201B3 /* ControlPointView.swift */,
+				BC57551E2C21BA36006201B3 /* BezierHandleView.swift */,
+				BC5755242C21BF5E006201B3 /* Model */,
+				BCD865BA2C25323F00259CA0 /* Extension */,
+				BC5754F42C212F3E006201B3 /* Assets.xcassets */,
+				BC5754F62C212F3E006201B3 /* Preview Content */,
+			);
+			path = Meshy;
+			sourceTree = "<group>";
+		};
+		BC5754F62C212F3E006201B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC5754F72C212F3E006201B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC5755002C212F3E006201B3 /* MeshyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC5755012C212F3E006201B3 /* MeshyTests.swift */,
+			);
+			path = MeshyTests;
+			sourceTree = "<group>";
+		};
+		BC57550A2C212F3E006201B3 /* MeshyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC57550B2C212F3E006201B3 /* MeshyUITests.swift */,
+				BC57550D2C212F3E006201B3 /* MeshyUITestsLaunchTests.swift */,
+			);
+			path = MeshyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC5754EC2C212F3C006201B3 /* Meshy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5755112C212F3E006201B3 /* Build configuration list for PBXNativeTarget "Meshy" */;
+			buildPhases = (
+				BC5754E92C212F3C006201B3 /* Sources */,
+				BC5754EA2C212F3C006201B3 /* Frameworks */,
+				BC5754EB2C212F3C006201B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meshy;
+			productName = Meshy;
+			productReference = BC5754ED2C212F3C006201B3 /* Meshy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC5754FC2C212F3E006201B3 /* MeshyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5755142C212F3E006201B3 /* Build configuration list for PBXNativeTarget "MeshyTests" */;
+			buildPhases = (
+				BC5754F92C212F3E006201B3 /* Sources */,
+				BC5754FA2C212F3E006201B3 /* Frameworks */,
+				BC5754FB2C212F3E006201B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5754FF2C212F3E006201B3 /* PBXTargetDependency */,
+			);
+			name = MeshyTests;
+			productName = MeshyTests;
+			productReference = BC5754FD2C212F3E006201B3 /* MeshyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC5755062C212F3E006201B3 /* MeshyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5755172C212F3E006201B3 /* Build configuration list for PBXNativeTarget "MeshyUITests" */;
+			buildPhases = (
+				BC5755032C212F3E006201B3 /* Sources */,
+				BC5755042C212F3E006201B3 /* Frameworks */,
+				BC5755052C212F3E006201B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5755092C212F3E006201B3 /* PBXTargetDependency */,
+			);
+			name = MeshyUITests;
+			productName = MeshyUITests;
+			productReference = BC5755072C212F3E006201B3 /* MeshyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC5754E52C212F3C006201B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BC5754EC2C212F3C006201B3 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BC5754FC2C212F3E006201B3 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BC5754EC2C212F3C006201B3;
+					};
+					BC5755062C212F3E006201B3 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BC5754EC2C212F3C006201B3;
+					};
+				};
+			};
+			buildConfigurationList = BC5754E82C212F3C006201B3 /* Build configuration list for PBXProject "Meshy" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC5754E42C212F3C006201B3;
+			productRefGroup = BC5754EE2C212F3C006201B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC5754EC2C212F3C006201B3 /* Meshy */,
+				BC5754FC2C212F3E006201B3 /* MeshyTests */,
+				BC5755062C212F3E006201B3 /* MeshyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC5754EB2C212F3C006201B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5754F82C212F3E006201B3 /* Preview Assets.xcassets in Resources */,
+				BC5754F52C212F3E006201B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5754FB2C212F3E006201B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5755052C212F3E006201B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC5754E92C212F3C006201B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC57551B2C212F7B006201B3 /* MeshEditorViewModel.swift in Sources */,
+				BC5754F32C212F3D006201B3 /* ContentView.swift in Sources */,
+				BC57551F2C21BA36006201B3 /* BezierHandleView.swift in Sources */,
+				BC5755382C21D863006201B3 /* ControlPointViewModel.swift in Sources */,
+				BC57551D2C2132C5006201B3 /* MeshEditorView.swift in Sources */,
+				BC5754F12C212F3C006201B3 /* MeshyApp.swift in Sources */,
+				BC57552B2C21CEDA006201B3 /* ControlPointView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5754F92C212F3E006201B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5755022C212F3E006201B3 /* MeshyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5755032C212F3E006201B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC57550C2C212F3E006201B3 /* MeshyUITests.swift in Sources */,
+				BC57550E2C212F3E006201B3 /* MeshyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC5754FF2C212F3E006201B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5754EC2C212F3C006201B3 /* Meshy */;
+			targetProxy = BC5754FE2C212F3E006201B3 /* PBXContainerItemProxy */;
+		};
+		BC5755092C212F3E006201B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5754EC2C212F3C006201B3 /* Meshy */;
+			targetProxy = BC5755082C212F3E006201B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC57550F2C212F3E006201B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC5755102C212F3E006201B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC5755122C212F3E006201B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meshy/Preview Content\"";
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.vx.Meshy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC5755132C212F3E006201B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meshy/Preview Content\"";
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.vx.Meshy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC5755152C212F3E006201B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.vx.MeshyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meshy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meshy";
+			};
+			name = Debug;
+		};
+		BC5755162C212F3E006201B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.vx.MeshyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meshy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meshy";
+			};
+			name = Release;
+		};
+		BC5755182C212F3E006201B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.vx.MeshyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meshy;
+			};
+			name = Debug;
+		};
+		BC5755192C212F3E006201B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.vx.MeshyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meshy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC5754E82C212F3C006201B3 /* Build configuration list for PBXProject "Meshy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC57550F2C212F3E006201B3 /* Debug */,
+				BC5755102C212F3E006201B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5755112C212F3E006201B3 /* Build configuration list for PBXNativeTarget "Meshy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5755122C212F3E006201B3 /* Debug */,
+				BC5755132C212F3E006201B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5755142C212F3E006201B3 /* Build configuration list for PBXNativeTarget "MeshyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5755152C212F3E006201B3 /* Debug */,
+				BC5755162C212F3E006201B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5755172C212F3E006201B3 /* Build configuration list for PBXNativeTarget "MeshyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5755182C212F3E006201B3 /* Debug */,
+				BC5755192C212F3E006201B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC5754E52C212F3C006201B3 /* Project object */;
+}
